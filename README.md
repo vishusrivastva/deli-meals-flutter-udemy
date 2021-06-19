@@ -4,14 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# deli-meals-flutter-udemy
+Create a new Flutter project via flutter create some_project
+Replace the lib/ folder and the pubspec.yaml file with the attached files
+Possibly add assets like images or fonts or adjust the AndroidManifest.xml / Info.plist file to add data/ permissions (only if covered in the previous lectures)
+flutter packages get
+flutter run (with a running emulator or real device connected to your machine) to view the app
